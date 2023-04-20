@@ -1,0 +1,16 @@
+{% block title %}Home{% endblock %} {% block content
+%}
+<html>
+<head>
+    <title>The abusive Ikshit website</title>
+    <h1> If you came here to see pics of Ikshit you are in the right place </h1>
+</head>
+<body>
+    <p><b>To see the first photo click the button</b></p>
+    {% for _ in range(6) %}
+        <br>
+    {% endfor %}
+    <button onclick="location.href='/picture1'">See First Image</button>
+</body>
+</html>
+{% endblock %}
